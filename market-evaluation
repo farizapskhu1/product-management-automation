@@ -1,0 +1,14 @@
+# Topic: TAM SAM SOM Market Evaluation
+
+# Context: As a product manager, you're looking to understand the market potential of your new product.
+
+# Prompt:
+"""
+I am working on evaluating the market potential for a new product in the [industry/sector] space. Could you help me with a detailed analysis of TAM (Total Addressable Market), SAM (Serviceable Available Market), and SOM (Serviceable Obtainable Market)? Please include:
+
+1. Definitions of TAM, SAM, and SOM.
+2. Steps to calculate each metric.
+3. Examples of how these metrics are used in the [specific industry/sector] market.
+4. Common pitfalls to avoid when estimating these metrics.
+5. How to use these metrics to inform strategic decisions.
+"""
