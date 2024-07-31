@@ -4,11 +4,24 @@
 
 # Prompt:
 """
-I am working on evaluating the market potential for a new product in the [industry/sector] space. Could you help me with a detailed analysis of TAM (Total Addressable Market), SAM (Serviceable Available Market), and SOM (Serviceable Obtainable Market)? Please include:
+I am working on evaluating the market potential for a new product in the [specific industry/sector]. Could you help me with a detailed analysis of TAM (Total Addressable Market), SAM (Serviceable Available Market), and SOM (Serviceable Obtainable Market)? Please include:
 
-1. Definitions of TAM, SAM, and SOM.
-2. Steps to calculate each metric.
-3. Examples of how these metrics are used in the [specific industry/sector] market.
-4. Common pitfalls to avoid when estimating these metrics.
-5. How to use these metrics to inform strategic decisions.
+Input Data from Me:
+
+Product Overview: [Provide a detailed description of your product.]
+Added value: [What makes your product uniquly valuable compared to existing solutions?]
+Target Audience (Using Jobs to Be Done Methodology)
+
+Jobs to Be Done (JTBD): [Describe the core jobs your target audience is trying to accomplish that your product will help with. Include functional, emotional, and social jobs.]
+Customer Segments: [Who are the primary users of your product? E.g., students, professionals, developers, legal professionals.]
+Context and Situations: [In what situations or contexts do these jobs arise?]
+
+Geographic Focus: [Are you targeting a global market or specific regions/countries?]
+Industry Focus: [Are you targeting specific industries (e.g., tech, finance, legal) within the specified sector?]
+
+Use the input data in your calculations
+Do this step by step
+Explain every assumption you make
+Attach link to every number you use from the internet
+Links should not be in hyperlink format, use pure addressees 
 """
