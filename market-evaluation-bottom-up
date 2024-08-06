@@ -1,0 +1,38 @@
+# Topic: Bottom-up Market Evaluation
+
+# Context: As a product manager, you're looking to understand the market potential of your new product.
+
+# Prompt:
+"""
+I am working on evaluating the market potential for a new product in the [specific industry/sector]. Could you help me with a detailed analysis of TAM (Total Addressable Market) and SAM (Serviceable Available Market) based on competitor analysis? Please include:
+
+Input Data from Me:
+
+Industry and Sector: [Specify the industry and sector you are interested in]
+# Example: Legal Tech, Web3, E-commerce, Healthcare, etc.
+
+
+Geographic Focus: [Indicate the primary geographic area you are targeting]
+# Example: United States, European Union, Georgia, etc.
+
+Target Market Segment: [Define the specific market segment or customer demographics]
+# Example: Small to Medium Enterprises (SMEs), startups, large corporations, individual consumers, etc.
+
+Product/Service Description: [Provide a detailed description of the product or service you plan to offer]
+# Example: Blockchain-based legal contract management software.
+
+Competitors: [List known competitors or similar products/services in the market]
+# Example: Competitor A, Competitor B, etc.
+
+Market Entry Strategy: [Describe your planned market entry strategy (if available)]
+# Example: Online marketing, partnerships, direct sales, etc.
+
+Existing Data or Assumptions: [Share any existing data, market reports, or assumptions you have about the market]
+# Example: Market size estimates, growth rates, etc.
+
+Use the input data in your calculations
+Do this step by step
+Explain every assumption you make
+Attach link to every number you use from the internet
+Links should not be in hyperlink format, use pure addressees 
+"""
