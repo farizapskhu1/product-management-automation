@@ -1,0 +1,19 @@
+#If you don't have locally installed python, use this instead https://colab.research.google.com/drive/1tycs1sgklP47he-d3s-HL1LT35MRWyAE?usp=sharing
+
+import whisper
+
+# Load Whisper model
+model = whisper.load_model("large")  # You can also use 'tiny', 'small', 'medium', or 'large'
+
+# Transcribe an interview audio file
+result = model.transcribe("/path/file_name.format")   #insert full path to your file on your computer and full name of the file. Example:"/home/maria/Downloads/recoring 1.mp3"
+
+# Get the transcription text
+transcription_text = result["text"]
+
+# Save transcription to a text file
+with open("transcription.txt", "w") as file:
+    file.write(transcription_text)
+
+print("Transcription saved to 'transcription.txt'")
+
