@@ -1,0 +1,73 @@
+https://www.perplexity.ai/search/im-running-this-code-on-my-pyc-mHx1nSVcSWqpgNfIluWy6A#2
+
+Here are clear instructions for a beginner to run the Whisper transcription code on their computer:
+
+## Prerequisites
+1. **Install Python**: Make sure you have Python 3.8 or higher installed on your computer. You can download it from the official Python website: https://www.python.org/downloads/
+
+2. **Install FFmpeg**: Whisper requires FFmpeg for audio processing. You can install it using your system's package manager. For example, on Ubuntu:
+   ```bash
+   sudo apt update
+   sudo apt install ffmpeg
+   ```
+
+## Steps to Run the Code
+
+1. **Create a new directory for your project** and navigate to it in your terminal.
+
+2. **Create a new Python virtual environment** to keep your project dependencies isolated:
+   ```bash
+   python -m venv myenv
+   ```
+
+3. **Activate the virtual environment**:
+   - On Windows:
+     ```bash
+     myenv\Scripts\activate
+     ```
+   - On macOS or Linux:
+     ```bash
+     source myenv/bin/activate
+     ```
+
+4. **Install the Whisper library** inside the virtual environment:
+   ```bash
+   pip install git+https://github.com/openai/whisper.git
+   ```
+
+5. **Create a new Python file** (e.g., `transcribe.py`) and copy the following code into it:
+   ```python
+   import whisper
+
+   # Load Whisper model
+   model = whisper.load_model("large")  # You can also use 'tiny', 'small', 'medium', or 'large'
+
+   # Transcribe an interview audio file
+   result = model.transcribe("/path/to/your/audio/file.m4a")
+
+   # Get the transcription text
+   transcription_text = result["text"]
+
+   # Save transcription to a text file
+   with open("transcription.txt", "w") as file:
+       file.write(transcription_text)
+
+   print("Transcription saved to 'transcription.txt'")
+   ```
+
+6. **Replace `/path/to/your/audio/file.m4a`** with the actual path to your audio file that you want to transcribe.
+
+7. **Save the file** and run the script:
+   ```bash
+   python transcribe.py
+   ```
+
+8. **The transcription will be saved to a file named `transcription.txt`** in the same directory as your script.
+
+That's it! The Whisper library will transcribe your audio file, and the transcription text will be saved to the `transcription.txt` file.
+
+Remember to always activate your virtual environment before running the script to ensure that the Whisper library is available.
+
+If you encounter any issues or errors, double-check that you have followed all the steps correctly, and make sure you have the necessary dependencies installed (Python and FFmpeg).
+
+Happy transcribing!
