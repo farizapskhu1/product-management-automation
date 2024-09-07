@@ -1,11 +1,14 @@
 https://www.perplexity.ai/search/im-running-this-code-on-my-pyc-mHx1nSVcSWqpgNfIluWy6A#2
 
-Here are clear instructions for a beginner to run the Whisper transcription code on their computer:
+# Whisper Audio Transcription
+
+This guide will help you set up and run the Whisper audio transcription code on your computer.
 
 ## Prerequisites
-1. **Install Python**: Make sure you have Python 3.8 or higher installed on your computer. You can download it from the official Python website: https://www.python.org/downloads/
 
-2. **Install FFmpeg**: Whisper requires FFmpeg for audio processing. You can install it using your system's package manager. For example, on Ubuntu:
+1. **Install Python**: Ensure you have Python 3.8 or higher installed. You can download it from the [official Python website](https://www.python.org/downloads/).
+
+2. **Install FFmpeg**: Whisper requires FFmpeg for audio processing. You can install it using your system's package manager. For example, on Ubuntu, run:
    ```bash
    sudo apt update
    sudo apt install ffmpeg
@@ -13,7 +16,11 @@ Here are clear instructions for a beginner to run the Whisper transcription code
 
 ## Steps to Run the Code
 
-1. **Create a new directory for your project** and navigate to it in your terminal.
+1. **Create a new directory for your project** and navigate to it in your terminal:
+   ```bash
+   mkdir whisper_transcription
+   cd whisper_transcription
+   ```
 
 2. **Create a new Python virtual environment** to keep your project dependencies isolated:
    ```bash
@@ -62,12 +69,17 @@ Here are clear instructions for a beginner to run the Whisper transcription code
    python transcribe.py
    ```
 
-8. **The transcription will be saved to a file named `transcription.txt`** in the same directory as your script.
+8. **Check the output**: The transcription will be saved to a file named `transcription.txt` in the same directory as your script.
 
-That's it! The Whisper library will transcribe your audio file, and the transcription text will be saved to the `transcription.txt` file.
+## Notes
 
-Remember to always activate your virtual environment before running the script to ensure that the Whisper library is available.
-
-If you encounter any issues or errors, double-check that you have followed all the steps correctly, and make sure you have the necessary dependencies installed (Python and FFmpeg).
+- Remember to activate your virtual environment before running the script to ensure that the Whisper library is available.
+- If you encounter any issues or errors, double-check that you have followed all the steps correctly and that you have the necessary dependencies installed (Python and FFmpeg).
 
 Happy transcribing!
+```
+
+### Instructions for Use
+
+- Copy the above Markdown content and paste it into a new file named `README.md` in your GitHub repository.
+- Commit and push the changes to your repository. Users will be able to view these instructions when they visit your project page on GitHub.
