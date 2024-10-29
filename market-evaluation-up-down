@@ -1,17 +1,14 @@
 # Topic: TAM SAM SOM Market Evaluation
 
-# Context: As a product manager, you're looking to understand the market potential of your new product.
-
 # Prompt:
 """
-I am working on evaluating the market potential for a new product in the [specific industry/sector]. Could you help me with a detailed analysis of TAM (Total Addressable Market), SAM (Serviceable Available Market), and SOM (Serviceable Obtainable Market)? Please include:
+As a product manager, you're looking to understand the market potential of your new product in the [specific industry/sector]. 
+Could you help me with a detailed analysis of TAM (Total Addressable Market), SAM (Serviceable Available Market), and SOM (Serviceable Obtainable Market)? 
 
-Input Data from Me:
+Please include input Data from Me:
 
 Product Overview: [Provide a detailed description of your product.]
 Added value: [What makes your product uniquly valuable compared to existing solutions?]
-Target Audience (Using Jobs to Be Done Methodology)
-
 Jobs to Be Done (JTBD): [Describe the core jobs your target audience is trying to accomplish that your product will help with. Include functional, emotional, and social jobs.]
 Customer Segments: [Who are the primary users of your product? E.g., students, professionals, developers, legal professionals.]
 Context and Situations: [In what situations or contexts do these jobs arise?]
@@ -20,7 +17,7 @@ Geographic Focus: [Are you targeting a global market or specific regions/countri
 Industry Focus: [Are you targeting specific industries (e.g., tech, finance, legal) within the specified sector?]
 
 Use the input data in your calculations
-Do this step by step
+Do this step by step, one step at a time: give one step, I either correct you or tell you to go ahead
 Explain every assumption you make
 Attach link to every number you use from the internet
 Links should not be in hyperlink format, use pure addressees 
